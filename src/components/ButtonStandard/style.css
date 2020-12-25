@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 .standard-button {
   width: 160px;
   background-color: #f27a83;
@@ -5,6 +7,13 @@
   border: none;
   padding: 2px;
   box-shadow: 2px 1px 10px #f27a83;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.standard-button:hover {
+  box-shadow: 4px 4px 10px #f27a83;
+  opacity: 0.95;
 }
 
 .standard-button > h2 {
