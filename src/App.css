@@ -1,3 +1,15 @@
 body {
   margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+}
+
+#nailsImage {
+  width: 80%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
