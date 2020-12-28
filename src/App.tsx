@@ -9,7 +9,9 @@ function App() {
       </header>
 
       <main>
-        <h1>adfdsfasdfsdf</h1>
+        <h1>Tatiane é uma</h1>
+        <h1>Nails Designer profissional</h1>
+        <StandardButton label="Ver Trabalhos" />
       </main>
     </div>
   );

@@ -4,6 +4,8 @@
 }
 
 .container {
+  display: flex;
+  align-items: center;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -27,10 +29,17 @@ header h3 {
 
 main {
   position: relative;
+  margin-left: 8vmax;
+  margin-bottom: 4cm;
 }
 
 main h1 {
   color: white;
   font-family: "Playfair Display", serif;
-  position: absolute;
+  font-size: 4vmax;
+  line-height: 8vmax;
+}
+
+main button {
+  margin-top: 4vmax;
 }

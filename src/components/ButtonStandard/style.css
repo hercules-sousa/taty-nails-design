@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 .standard-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #dc5cb9;
-  border-radius: 16px;
+  border-radius: 8px;
   border: none;
-  padding: 0.5vw 4vmax 0.5vw 4vmax;
+  padding: 1vmax 2vmax 1vmax 2vmax;
   outline: none;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.5vmax;
 }
 
 .standard-button:hover {
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .standard-button > h2 {
