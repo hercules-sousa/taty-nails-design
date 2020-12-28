@@ -18,9 +18,19 @@ header {
   left: 4vw;
 }
 
-header h1 {
+header h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 4vw;
+  font-size: 3vmax;
+}
+
+main {
+  position: relative;
+}
+
+main h1 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  position: absolute;
 }
