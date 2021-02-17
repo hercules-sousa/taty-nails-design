@@ -12,7 +12,7 @@ function App() {
       </header>
 
       <main>
-        <img width={200} src={logo} alt="Logo" />
+        <div id="logo-container" />
       </main>
     </div>
   );
