@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.container {
+#first-screen {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -12,6 +12,7 @@
   height: 100vh;
   background: url("./assets/images/background.png") no-repeat center;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 #logo-container {
@@ -19,6 +20,20 @@
   height: 60vh;
   background: url("./assets/images/logoMarca.png") no-repeat center;
   background-size: contain;
+}
+
+#info-container {
+  height: 50vh;
+  width: 100vw;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+#nails-cards-container {
+  width: 100vw;
+  height: 100vh;
+  background: url("./assets/images/background-nails.png") no-repeat center;
+  background-size: cover;
 }
 
 header {
