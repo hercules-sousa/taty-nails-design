@@ -5,7 +5,8 @@
 
 .container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -14,23 +15,31 @@
 }
 
 header {
-  display: inline-block;
+  display: inline-flex;
   position: absolute;
   top: 1vmax;
   left: 4vw;
+}
+
+@media (max-width: 680px) {
+  header {
+    top: 2vmax;
+  }
 }
 
 header h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 3vmax;
+  font-size: 2.6vmax;
+}
+
+.space-given {
+  margin-left: 4vw;
 }
 
 main {
   position: relative;
-  margin-left: 8vmax;
-  margin-bottom: 4cm;
 }
 
 main h1 {
