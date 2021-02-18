@@ -22,6 +22,9 @@ function App() {
         <CustomInstaCard />
         <CustomInstaCard />
         <CustomInstaCard />
+        <CustomInstaCard />
+        <CustomInstaCard />
+        <CustomInstaCard />
       </div>
     </div>
   );
