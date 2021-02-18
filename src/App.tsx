@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div id="container">
       <div id="first-screen">
         <header>
           <h3>Home</h3>
@@ -16,7 +16,7 @@ function App() {
       </div>
       <div id="info-container"></div>
       <div id="nails-cards-container"></div>
-    </>
+    </div>
   );
 }
 
