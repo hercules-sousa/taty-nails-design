@@ -28,6 +28,7 @@ function App() {
         <CustomInstaCard cardImage={nails1} />
         <CustomInstaCard cardImage={nails2} />
       </div>
+      <div id="info-container"></div>
     </div>
   );
 }
