@@ -44,6 +44,11 @@
 }
 
 #nails-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8vw;
   position: relative;
   width: 100vw;
   height: 100vh;

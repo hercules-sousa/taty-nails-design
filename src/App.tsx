@@ -1,4 +1,7 @@
+import React from "react";
+
 import "./App.css";
+import CustomInstaCard from "./components/CustomInstaCard";
 
 function App() {
   return (
@@ -15,7 +18,11 @@ function App() {
         </main>
       </div>
       <div id="info-container"></div>
-      <div id="nails-cards-container"></div>
+      <div id="nails-cards-container">
+        <CustomInstaCard />
+        <CustomInstaCard />
+        <CustomInstaCard />
+      </div>
     </div>
   );
 }
