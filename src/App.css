@@ -54,6 +54,7 @@
   height: 100vh;
   background: url("./assets/images/background-nails.png") no-repeat center;
   background-size: cover;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
