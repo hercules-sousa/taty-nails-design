@@ -2,6 +2,8 @@ import React from "react";
 
 import "./App.css";
 import CustomInstaCard from "./components/CustomInstaCard";
+import nails1 from "./assets/images/cardsImages/nails1.png";
+import nails2 from "./assets/images/cardsImages/nails2.png";
 
 function App() {
   return (
@@ -19,12 +21,12 @@ function App() {
       </div>
       <div id="info-container"></div>
       <div id="nails-cards-container">
-        <CustomInstaCard />
-        <CustomInstaCard />
-        <CustomInstaCard />
-        <CustomInstaCard />
-        <CustomInstaCard />
-        <CustomInstaCard />
+        <CustomInstaCard cardImage={nails1} />
+        <CustomInstaCard cardImage={nails2} />
+        <CustomInstaCard cardImage={nails1} />
+        <CustomInstaCard cardImage={nails2} />
+        <CustomInstaCard cardImage={nails1} />
+        <CustomInstaCard cardImage={nails2} />
       </div>
     </div>
   );
