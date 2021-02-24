@@ -4,6 +4,7 @@ import "./App.css";
 import CustomInstaCard from "./components/CustomInstaCard";
 import nails1 from "./assets/images/cardsImages/nails1.png";
 import nails2 from "./assets/images/cardsImages/nails2.png";
+import TestimonyCard from "./components/TestimonyCard";
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
         <CustomInstaCard cardImage={nails1} />
         <CustomInstaCard cardImage={nails2} />
       </div>
-      <div id="info-container"></div>
+      <div id="testimony-container">
+        <TestimonyCard />
+      </div>
     </div>
   );
 }
