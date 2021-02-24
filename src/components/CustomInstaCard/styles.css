@@ -29,6 +29,7 @@
   background-color: blue;
   background: url("../../assets/images/custom-insta-icon.png") no-repeat center;
   background-size: contain;
+  max-width: 56px;
 }
 
 .information {
