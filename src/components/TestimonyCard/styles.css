@@ -1,9 +1,27 @@
 #testimony-card-container {
   background-color: red;
-  width: 351px;
+  width: 48vh;
   height: 486px;
+  background: linear-gradient(to right, #dc5cb9, #f4cace);
+  border-radius: 24px;
+  padding: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#background-sheet {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 24px;
+}
+
+#image-sheet {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 24px;
   background: url("../../assets/images/testimonyCardImages/background.png")
     no-repeat center;
   background-size: cover;
-  border-radius: 25px;
 }

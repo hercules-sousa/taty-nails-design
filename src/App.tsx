@@ -31,6 +31,8 @@ function App() {
       </div>
       <div id="testimony-container">
         <TestimonyCard />
+        <TestimonyCard />
+        <TestimonyCard />
       </div>
     </div>
   );
