@@ -1,12 +1,14 @@
 #testimony-card-container {
   margin: 32px;
-  width: 48vh;
-  height: 486px;
+  width: 40vmax;
+  height: 60vmax;
   background: linear-gradient(to right, #dc5cb9, #f4cace);
   border-radius: 24px;
   padding: 4px;
   margin-left: 8px;
   margin-right: 8px;
+  max-width: 48vh;
+  max-height: 486px;
 }
 
 #background-sheet {
