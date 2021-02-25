@@ -30,9 +30,12 @@ function App() {
         <CustomInstaCard cardImage={nails2} />
       </div>
       <div id="testimony-container">
-        <TestimonyCard />
-        <TestimonyCard />
-        <TestimonyCard />
+        <div className="card-test" />
+        <div className="card-test" />
+        <div className="card-test" />
+        <div className="card-test" />
+        <div className="card-test" />
+        <div className="card-test" />
       </div>
     </div>
   );
