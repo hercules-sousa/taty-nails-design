@@ -88,32 +88,12 @@ header h3 {
   margin-left: 4vw;
 }
 
-main {
-  position: relative;
-}
-
-main h1 {
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 4vmax;
-  line-height: 8vmax;
-}
-
-main button {
-  margin-top: 4vmax;
-}
-
 #testimony-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 100vw;
   height: 100vh;
-  overflow-x: scroll;
-  white-space: nowrap;
-}
-
-.card-test {
-  display: inline-flex;
-  margin: 8px;
-  width: 300px;
-  height: 500px;
-  background-color: red;
+  flex-wrap: wrap;
+  padding: 8px;
 }

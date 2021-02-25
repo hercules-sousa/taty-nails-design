@@ -16,9 +16,9 @@ function App() {
           <h3 className="space-given">Contato</h3>
         </header>
 
-        <main>
+        <div id="logo-space">
           <div id="logo-container" />
-        </main>
+        </div>
       </div>
       <div id="info-container"></div>
       <div id="nails-cards-container">
@@ -30,12 +30,8 @@ function App() {
         <CustomInstaCard cardImage={nails2} />
       </div>
       <div id="testimony-container">
-        <div className="card-test" />
-        <div className="card-test" />
-        <div className="card-test" />
-        <div className="card-test" />
-        <div className="card-test" />
-        <div className="card-test" />
+        <TestimonyCard />
+        <TestimonyCard />
       </div>
     </div>
   );
