@@ -13,8 +13,12 @@ const TestimonyCard = () => {
         <div className="card-box-two">
           <div className="testimony-card-image-container" />
           <div className="testimony-card-icons-container">
-            <RiFacebookCircleLine size={40} color="white" />
-            <FaInstagram size={40} color="white" />
+            <a href="#">
+              <RiFacebookCircleLine size={40} color="white" />
+            </a>
+            <a href="https://instagram.com/tatyalmeidanailsdesigner?igshid=146e0datemyd3">
+              <FaInstagram size={40} color="white" />
+            </a>
           </div>
         </div>
       </div>
