@@ -54,7 +54,7 @@
   height: 100vh;
   background: url("./assets/images/background-nails.png") no-repeat center;
   background-size: cover;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -102,7 +102,8 @@ header h3 {
   opacity: 0.5;
   height: 140px;
   width: 100%;
-  position: static;
+  position: relative;
+  top: 0;
   left: 0;
 }
 
