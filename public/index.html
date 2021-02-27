@@ -24,7 +24,16 @@
     <div id="root"></div>
   </body>
   <script>
-    const cards = document.getElementById("nails-cards-container");
-    cards.style.overflowY = "hidden";
+    const cardsContainer = document.getElementById("nails-cards-container");
+    let distanceFromCardsContainerToTop = cardsContainer.offsetTop;
+    window.onscroll = () => {
+      let distance = window.pageYOffset;
+      console.log(distance)
+      console.log(distanceFromCardsContainerToTop)
+      console.log(distance - distanceFromCardsContainerToTop)
+      if(distance - distanceFromCardsContainerToTop === 0) {
+        cardsContainer.style.overflowY= "scroll"
+      }
+    }
   </script>
 </html>
