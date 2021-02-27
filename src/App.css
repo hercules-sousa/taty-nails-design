@@ -95,6 +95,4 @@ header h3 {
   width: 100vw;
   height: 100vh;
   flex-wrap: wrap;
-  background: url("./assets/images/testimony-background.png") no-repeat top;
-  background-size: cover;
 }

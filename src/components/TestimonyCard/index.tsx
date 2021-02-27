@@ -9,7 +9,10 @@ const TestimonyCard = () => {
     <div id="testimony-card-container">
       <div id="background-sheet">
         <div id="image-sheet" />
-        <div className="card-box-one"></div>
+        <div className="card-box-one">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          molestias pariatur, recusandae et corporis maxime?
+        </div>
         <div className="card-box-two">
           <div className="testimony-card-image-container" />
           <div className="testimony-card-icons-container">
