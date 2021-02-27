@@ -22,12 +22,15 @@ function App() {
       </div>
       <div id="info-container"></div>
       <div id="nails-cards-container">
-        <CustomInstaCard cardImage={nails1} />
-        <CustomInstaCard cardImage={nails2} />
-        <CustomInstaCard cardImage={nails1} />
-        <CustomInstaCard cardImage={nails2} />
-        <CustomInstaCard cardImage={nails1} />
-        <CustomInstaCard cardImage={nails2} />
+        <header>Galeria de Trabalhos Realizados</header>
+        <div>
+          <CustomInstaCard cardImage={nails1} />
+          <CustomInstaCard cardImage={nails2} />
+          <CustomInstaCard cardImage={nails1} />
+          <CustomInstaCard cardImage={nails2} />
+          <CustomInstaCard cardImage={nails1} />
+          <CustomInstaCard cardImage={nails2} />
+        </div>
       </div>
       <div id="testimony-container">
         <div>

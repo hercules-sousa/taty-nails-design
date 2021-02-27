@@ -96,3 +96,19 @@ header h3 {
   height: 100vh;
   flex-wrap: wrap;
 }
+
+#nails-cards-container > header {
+  background-color: black;
+  opacity: 0.5;
+  height: 140px;
+  width: 100%;
+  position: static;
+  left: 0;
+}
+
+#nails-cards-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
