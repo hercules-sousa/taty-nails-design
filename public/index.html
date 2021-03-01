@@ -28,10 +28,8 @@
     let distanceFromCardsContainerToTop = cardsContainer.offsetTop;
     window.onscroll = () => {
       let distance = window.pageYOffset;
-      console.log(distance)
-      console.log(distanceFromCardsContainerToTop)
       console.log(distance - distanceFromCardsContainerToTop)
-      if(distance - distanceFromCardsContainerToTop === 0) {
+      if(distance - distanceFromCardsContainerToTop >= 0) {
         cardsContainer.style.overflowY= "scroll"
       }
     }
