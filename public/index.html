@@ -25,12 +25,25 @@
   </body>
   <script>
     const cardsContainer = document.getElementById("nails-cards-container");
-    let distanceFromCardsContainerToTop = cardsContainer.offsetTop;
+    const testimonyContainer = document.getElementById("testimony-container");
+    const distanceFromCardsContainerToTop = cardsContainer.offsetTop;
+    const distanceTestimonyConainerToTop = testimonyContainer.offsetTop;
     window.onscroll = () => {
-      let distance = window.pageYOffset;
-      console.log(distance - distanceFromCardsContainerToTop)
-      if(distance - distanceFromCardsContainerToTop >= 0) {
-        cardsContainer.style.overflowY= "scroll"
+      let distanceFromTopInWindow = window.pageYOffset;
+      console.log(`how deep the page we are: ${distanceFromTopInWindow}`)
+      if(distanceFromTopInWindow >= distanceFromCardsContainerToTop - 2) {
+        if(distanceFromTopInWindow <= distanceFromCardsContainerToTop + 2) {
+          console.log("Scroll");
+          cardsContainer.style.overflowY = "scroll";
+        }
+        else {
+          console.log("Hidden");
+          cardsContainer.style.overflowY = "hidden";
+        }
+      }
+      else {
+        console.log("Scroll");
+        cardsContainer.style.overflowY = "hidden";
       }
     }
   </script>
