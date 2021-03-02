@@ -28,12 +28,12 @@
     const testimonyContainer = document.getElementById("testimony-container");
     const distanceFromCardsContainerToTop = cardsContainer.offsetTop;
     const distanceTestimonyConainerToTop = testimonyContainer.offsetTop;
-    window.onscroll = () => {
+    document.addEventListener("scroll", () => {
       let distanceFromTopInWindow = window.pageYOffset;
       // console.log(`how deep the page we are: ${distanceFromTopInWindow}`)
-      if(distanceFromTopInWindow >= distanceFromCardsContainerToTop - 24) {
+      if(distanceFromTopInWindow >= distanceFromCardsContainerToTop - 40) {
         if(distanceFromTopInWindow <= distanceFromCardsContainerToTop + 24) {
-          cardsContainer.style.overflowY = "visible";
+          cardsContainer.style.overflowY = "scroll";
         }
         else {
           cardsContainer.style.overflowY = "hidden";
@@ -42,6 +42,6 @@
       else {
         cardsContainer.style.overflowY = "hidden";
       }
-    }
+    })
   </script>
 </html>

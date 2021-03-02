@@ -54,7 +54,7 @@
   height: 100vh;
   background: url("./assets/images/background-nails.png") no-repeat center;
   background-size: cover;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -100,11 +100,22 @@ header h3 {
 #nails-cards-container > header {
   background-color: black;
   opacity: 0.5;
-  height: 140px;
+  height: 20%;
   width: 100%;
   position: relative;
   top: 0;
   left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#nails-cards-container > header > h1 {
+  font-size: 4vmax;
+  margin-left: 48px;
+  background: -webkit-linear-gradient(#dc5cb9, #f4cace);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #nails-cards-container > div {

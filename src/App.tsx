@@ -22,7 +22,9 @@ function App() {
       </div>
       <div id="info-container"></div>
       <div id="nails-cards-container">
-        <header>Galeria de Trabalhos Realizados</header>
+        <header>
+          <h1>Galeria de Trabalhos Realizados</h1>
+        </header>
         <div id="cards-nails-container">
           <CustomInstaCard cardImage={nails1} />
           <CustomInstaCard cardImage={nails2} />
