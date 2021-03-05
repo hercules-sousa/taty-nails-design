@@ -20,7 +20,10 @@ function App() {
           <div id="logo-container" />
         </div>
       </div>
-      <div id="info-container"></div>
+      <div id="info-container">
+        <div></div>
+        <div id="illustration-container"></div>
+      </div>
       <div id="nails-cards-container">
         <header>
           <h1>Galeria de Trabalhos Realizados</h1>
